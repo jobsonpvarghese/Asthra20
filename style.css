@@ -75,6 +75,11 @@ body {
     text-decoration: none;
 }
 
+.asthra-logo {
+    height: auto;
+    width: 130px;
+}
+
 /*------------------------------------------------------------
 ### site-navigation
 ------------------------------------------------------------*/
@@ -178,7 +183,7 @@ body {
 
 .site-navigation ul li a {
     display: block;
-    color: #fff;
+    color: black;
     transition: all 0.35s;
     text-decoration: none;
     font-size: 14px;
@@ -223,9 +228,19 @@ body {
     }
 
     .site-navigation ul li a {
-        color: #fff;
+        color: black;
+    }
+
+    .events .site-navigation ul li a {
+        color: white;
+    }
+
+    .events-list .site-navigation ul li a {
+        color: white;
     }
 }
+
+
 
 /*------------------------------------------------------------
 # hero
