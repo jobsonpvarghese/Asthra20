@@ -190,6 +190,20 @@ body {
     padding-left: 35px;
 }
 
+.site-navigation ul li a:hover {
+    color: #a20000;
+}
+
+.events .site-navigation ul li a:hover {
+    color: #a20000;
+}
+
+.events-list .site-navigation ul li a:hover {
+    color: #a20000;
+}
+
+
+
 @media screen and (min-width: 992px) {
     .header-bar .site-branding {
         margin-left: 35px;
@@ -229,15 +243,9 @@ body {
 
     .site-navigation ul li a {
         color: black;
+        font-weight: 600;
     }
 
-    .events .site-navigation ul li a {
-        color: white;
-    }
-
-    .events-list .site-navigation ul li a {
-        color: white;
-    }
 }
 
 
@@ -246,10 +254,10 @@ body {
 # hero
 -----------------------------------------------------------*/
 .hero-content {
-    background-image: url("images/5.png");
+    background-image: url("images/backg.jpg");
     background-size: cover;
+    background-position: center;
     padding: 150px 0 150px 0;
-    background-color: #ebe6d2;
 }
 
 .hero-content .hero-image  {
@@ -268,14 +276,14 @@ body {
     min-height: 500px;
     width: 100%;
     padding-bottom: 120px;
-    background: url("images/middle-cover.jpg") no-repeat;
+    background: url("images/dotted.jpg") ;
     background-size: 100% auto;
 }
 
 .content-section .middle-cover {
     margin: 0;
     padding: 0;
-    position: relative;
+    position: fixed;
 }
 
 .content-section .middle-cover img {
@@ -750,9 +758,9 @@ body {
 ------------------------------------------------------------*/
 .site-footer {
     position: relative;
-    padding: 40px 0 30px;
-    background: url(images/footer-cover.jpg) no-repeat;
-    background-size: cover;
+    padding: 30px 0 30px;
+    background: url(images/wave.jpg) no-repeat;
+    
 }
 
 .site-footer::before {
@@ -761,13 +769,12 @@ body {
     height: 100%;
     width: 100%;
     z-index: 3;
-    background: hsla(0, 0%, 5%, 0.7);
     top: 0;
     left: 0;
 }
 
 .site-footer .footer-cover-title {
-    min-height: 480px;
+    min-height: 300px;
     width: 100%;
 }
 
@@ -790,7 +797,7 @@ body {
     width: 100%;
     height: auto;
     z-index: 4;
-    top: 130px;
+    top: 100px;
     left: 0;
     padding: 6px 0;
     text-align: center;
@@ -897,7 +904,7 @@ body {
 
 .page-header .entry-title {
     font-size: 72px;
-    color: white;
+    color: #a20000;
     margin: 0;
     padding: 0;
 }
@@ -907,7 +914,7 @@ body {
     margin: 0;
     font-size: 14px;
     font-weight: 300;
-    color: #fff;
+    color: black;
     list-style: none;
 }
 
@@ -933,7 +940,7 @@ body {
 
 .page-header .breadcrumbs li a {
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 
 .main-content {
@@ -1025,7 +1032,7 @@ body {
 ------------------------------------------------------------*/
 .testimonial-wrap {
     position: relative;
-    background-image: linear-gradient(to bottom, #0196bf, #00a0bc, #00a9b3, #00b1a4, #1bb791);
+    background-image: linear-gradient(to bottom, #ea5841, #ea5841, #ea5841, #ea5841, #ea5841);
 }
 
 .testimonials-container,
@@ -1911,7 +1918,7 @@ body {
 
 
 .events .page-header {
-    background: url("images/about-us-header-background.jpg") no-repeat;
+    background: url("images/events-background.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -1940,4 +1947,3 @@ body {
     top: 43%;
     left: 47.4%;
 }
-
